@@ -2,9 +2,9 @@
   "name": "import-glob-loader",
   "version": "1.0.0",
   "description": "Globbing preloader for Webpack",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "prepublish": "babel src/index.js -o index.js",
+    "prepublish": "babel src/index.js -o dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
